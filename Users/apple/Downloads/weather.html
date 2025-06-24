@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="weather.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <title>Document</title>
+</head>
+<body>
+    <h1>Know Your City's Weather</h1>
+     <main class="main">
+     <div id="searchbar">
+        <input id="city" type="text"  placeholder="Enter city">
+        <button class="button" id="button">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+    </div>
+        <button id="btn">Get Location</button>
+
+    <div class="info">
+        <h3 id="cityName">Name</h3>
+        <h5 id="cityTime">Localtime</h5>
+        <p id="cityTemp">Temperature</p>
+ </div>
+    </main>
+    <script src="weather.js"></script>
+</body>
+</html>

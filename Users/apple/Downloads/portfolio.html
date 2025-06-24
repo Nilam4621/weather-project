@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+        <nav>
+        <ul id="sidebar">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Portfolio</a></li>
+        <li><a href="#">Contact</a></li>
+      <div id="close"><i class="fa-solid fa-xmark" onclick="closemenu()"></i></div>
+        
+    </ul>
+        <div id="menu"><i class="fa-solid fa-bars" onclick="openmenu()"></i></div>
+</nav>
+    
+<section><div class="main-text">
+        <h1>Hi , I am <br><span style="color:#f25489;">Nilam</span> Prajapati</h1>
+                <p>Frontend Web Developer</p>
+            </div>
+            </section>
+            </div>
+            </div>
+
+            <div id="about">
+<div class="container">
+    <div class="row">
+        <div class="about-col-1">
+            <img src="images copy/woment.jpg">
+        </div>
+         <div class="about-col-2">
+            <div id="title"><h1>About Me</h1></div>
+            <p>As a fresher Frontend Developer, I bring curiosity, creativity, and a strong foundation in web technologies like HTML, CSS, and JavaScript.I believe in writing clean code, designing user-friendly interfaces, and continuously improving myself to become a better developer every day.</p>
+<div class="sub-title">
+<p class="tab-links active-links" onclick="opentab('Skills', event)">Skills</p>
+<p class="tab-links" onclick="opentab('Education', event)">Education</p>
+</div>
+
+<div class="tab-contents active-tab" id="Skills">
+    <ul>
+        <li><span>Lorem, ipsum.</span><br>Lorem ipsum dolor sit amet.</li>
+        <li><span>Lorem, ipsum.</span><br>Lorem ipsum dolor sit amet.</li>
+
+
+    </ul>
+</div>
+<div class="tab-contents" id="Education">
+    <ul>
+        <li><span>hmhjmnln, ipsum.</span><br>gmmm ipsum dolor sit amet.</li>
+        <li><span>mgmmb, ipsum.</span><br>Lorem hkgmn dolor sit amet.</li>
+
+    </ul>
+</div>
+ 
+</div>
+         </div>
+        </div>
+</div>
+</div> 
+<div id="services">
+    <div class="container">
+     <div id="title" class="title"><h1>My Services</h1></div>
+<div class="services-list">
+    <div>
+        <i class="fa-solid fa-display"></i>
+        <h2> Responsive Website Design</h2>
+        <p>I can build clean and responsive websites using HTML, CSS, and JavaScript that look great on all devices — mobile, tablet, and desktop.</p>
+        <a href="#">learn more</a>
+    </div>
+
+    <div>
+        <i class="fa-solid fa-globe"></i>
+        <h2> Landing Page Development</h2>
+        <p>I create modern, attractive, and fast-loading landing pages for products, portfolios, and small businesses using HTML/CSS and Bootstrap.</p>
+        <a href="#">learn more</a>
+    </div>
+
+    <div>
+        <i class="fa-solid fa-pen"></i>
+         <h2>Website Redesign</h2>
+         <p>I give a new and modern look to old websites by fixing layout, colors, fonts, and making them easier to use.</p>
+         <a href="#">learn more</a>
+    </div>
+</div>
+    </div>
+</div>
+<div id="portfolio">
+    <div class="container">
+           <div  id="title" class="title"><h1>My Work</h1></div>
+           <div class="work-list">
+           
+            <div class="work">
+            <img src = "images copy/work1.png">
+            <div class="layer">
+                <h3>Responsive Shopping Website</h3>
+                <p>A modern shopping site UI for fashion products with grid layout and mobile support.</p>
+               <a href="#"><i class="fa-solid fa-link"></i></a> 
+            </div>
+ </div>
+          
+          
+           <div class="work">
+            <img src = "images copy/work2.png">
+    <div class="layer">
+    <h3>Image Search App</h3>
+    <p>Search high-quality images by keyword using JavaScript and API.</p>
+     <a href="#"><i class="fa-solid fa-link"></i></a> 
+
+</div>
+</div>
+           
+           <div class="work">
+            <img src = "images copy/work3.png">
+<div class="layer">
+    <h3>Weather App</h3>
+    <p>Get temperature and time by entering a city or using your current location.</p>
+    <a href="#"><i class="fa-solid fa-link"></i></a> 
+
+</div>
+</div>
+</div>
+<a href="#" class="btn">See more</a>
+    </div>
+</div>
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <div id="title" class="title"><h1>Contact Me</h1></div>
+
+                <p><i class="fa-solid fa-envelope"></i>nilamprajapati4621@gmail.com</p>z
+                <p><i class="fa-solid fa-phone"></i>95580-27458</p>
+                <div class="icons">
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+             </div>
+             <a href="#" class="btn btn2">Download CV</a>
+                         </div>
+
+            <div class="contact-right">
+<form action="">
+    <input type="text" name="name" placeholder="Your name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" rows="8" placeholder="Your Message" required ></textarea>
+        <button type="submit" class="btn btn2">Submit</button>
+</form>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="portfolio.js"></script>
+</body>
+</html>

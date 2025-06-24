@@ -1,0 +1,218 @@
+body{
+   background:linear-gradient( to right,rgb(42, 41, 41),black);
+   overflow-x: hidden;
+   overflow-y: hidden;
+
+
+}
+
+main{
+    margin:10px;
+}
+
+.logo h1{
+    color: white;
+    font-family: cursive;
+    margin: 10px 50px;
+    font-size: 40px;
+}
+
+.navlist{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-top:10px;
+    }
+
+    .navlist a{
+        display: inline-block;
+        margin:0px 35px;
+        color: white;
+        transition: all .6s ease;
+        text-decoration: none;
+    }
+
+    .navlist a:hover{
+        color:goldenrod;
+    }
+
+    .btn{
+        display: flex;
+        justify-content: right;
+        align-items: center;
+        margin-right: 100px;
+        
+
+    }
+
+button{
+    display: inline-block;
+    color: white;
+    border:1px white solid;
+   background: transparent;
+    border-radius:6px;
+    font-size: 15px;
+    transition: all .6s ease;
+    padding: 5px;
+    
+    }
+
+    button:hover{
+        transform: translateY(-5px);
+        border: 2px solid goldenrod;
+        color: goldenrod;
+    }
+
+   section{
+    padding: 0 14%;
+   }
+   .hero{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    top:-30px;
+
+   }
+
+   .hero-img img{
+    width:100%;
+    position: relative;
+    left: -200px;
+    
+   }
+
+   .hero-text{
+    color: white;
+    font-family: sans-serif;
+   }
+   .hero-text h1{
+    font-size: 54px;
+    font-weight: 900;
+    margin: 15px 0;
+
+   }
+
+   .hero-text h5{
+font-size: 18px;
+font-weight: 400;
+letter-spacing: 1px;
+   }
+   .hero-text p{
+    width: 80%;
+    max-width: 620px;
+    font-weight: 400;
+    line-height:32px;
+    margin-bottom: 40px;
+   }
+
+   .main-hero{
+    display: flex;
+    align-items: center;
+   }
+
+   .button{
+display: inline-block;
+background-color: goldenrod;
+border: 2px solid transparent;
+padding: 13px 32px;
+color: white;
+border-radius: 7px;
+font-size: 15px;
+transition: all .6s ease;
+font-weight: 500;
+margin-right: 20px;
+}
+
+.button:hover{
+    transform: scale(1.1);
+}
+
+.price{
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+.price span{
+    font-size: 17px;
+    font-weight: 400;
+    color: goldenrod;
+    margin-left: 10px;
+}
+
+.icons{
+    position: absolute;
+    top:80%;
+    padding: 0 7%;
+    transform: translateY(-50%);
+    }
+
+.icons i{
+    display: block;
+    margin: 35px 0;
+    color: white;
+    font-size: 18px;
+    transition: all .6s;
+    margin-top: 7px;
+    margin-left:20px;
+}
+
+.icons i:hover{
+    transform: translateY(-5px);
+    color: goldenrod;
+} 
+
+.scroll{
+    position: absolute;
+    top:95%;
+    right: 7%;
+    transform: translateY(-50%);
+}
+.scroll a{
+    color: white;
+    font-size: 12px;
+    text-decoration: none;
+}
+.scroll i{
+    color: white;
+    font-size:16px;
+    margin-right: 6px;
+}
+
+@media(max-width:1770px){
+    header{
+        padding: 22px 4%;
+    }
+    .icons{
+        padding: 0 4%;
+    }
+    .scroll{
+        right: 4%;
+    }
+}
+
+@media(max-width:1370px){
+    .icons{
+        display: none;
+    }
+    section{
+        padding: 0 4%;
+    }
+    
+}
+@media(max-width:1150px){
+    .price{
+        font-size: 20px;
+    }
+    .button{
+        padding: 10px 23px;
+    }
+}
+
